@@ -9,12 +9,14 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { HomeComponent } from './home/home.component';
+import { XuLySuCoComponent } from './xu-ly-su-co/xu-ly-su-co.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    HomeComponent
+    HomeComponent,
+    XuLySuCoComponent
   ],
   imports: [
     BrowserModule,
